@@ -14,9 +14,9 @@ public class MessageController {
 
     private int counter = 4;
     private List<Map<String, String>> messages = new ArrayList<Map<String, String>>(){{
-        add(new HashMap<String, String>() {{put("id", "1"); put("test", "First Messege");}});
-        add(new HashMap<String, String>() {{put("id", "2"); put("test", "Second Messege");}});
-        add(new HashMap<String, String>() {{put("id", "3"); put("test", "Third Messege");}});
+        add(new HashMap<String, String>() {{put("id", "345"); put("text", "First Messege");}});
+        add(new HashMap<String, String>() {{put("id", "2"); put("text", "Second Messege");}});
+        add(new HashMap<String, String>() {{put("id", "3"); put("text", "Third Messege");}});
     }};
 
     @GetMapping
